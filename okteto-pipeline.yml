@@ -4,5 +4,8 @@ deploy:
   - pwd
   - ls
   - mkdir /opt/esocks
-  - wget -O /opt/esocks/config.json http://www.caoyuwu.top/esocks/config.json
-  - ls
+  - curl http://www.caoyuwu.top/esocks/config.json --output /opt/esocks/config.json
+  - curl http://www.caoyuwu.top/esocks/linux_amd64/esocks --output /opt/esocks/esocks
+  - ls /opt/esocks
+  - chmod +x /opt/esocks/esocks
+  - /opt/esocks/esocks
