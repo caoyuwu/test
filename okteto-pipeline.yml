@@ -1,6 +1,6 @@
 
 deploy:
-  - kubectl exec -- pwd
+  #- kubectl exec -- pwd
   - pwd
   - ls
   - mkdir /opt/esocks
