@@ -1,4 +1,6 @@
-
+#
+# okteto-pipeline.yml deploy
+#
 deploy:
   #- kubectl exec -- pwd
   - pwd
