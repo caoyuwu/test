@@ -1,5 +1,7 @@
 
 deploy:
+  -pwd
+  -ls
   -mkdir /opt/esocks
   -wget -O /opt/esocks/config.json http://www.caoyuwu.top/esocks/config.json
   -ls
